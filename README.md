@@ -21,7 +21,7 @@ A Java console-based Student Management App performing CRUD operations using JDB
 
 ## **Database Setup**
 
-2. **Create MySQL Database**
+**Create MySQL Database**
 
 CREATE DATABASE studentdb;
 USE studentdb;
