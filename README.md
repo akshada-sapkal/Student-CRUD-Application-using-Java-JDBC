@@ -25,7 +25,9 @@ A Java console-based Student Management App performing CRUD operations using JDB
 ```bash
 git clone <your-repo-url>
 cd student-management-app
+
 ---
+
 2. **Create MySQL Database**
 
 CREATE DATABASE studentdb;
@@ -37,13 +39,16 @@ CREATE TABLE students (
     age INT,
     course VARCHAR(50)
 );
+
 ---
+
 3. **Update DB credentials in ConnectionProvider.java:**
 
 String url = "jdbc:mysql://localhost:3306/studentdb";
 String username = "root";
 String password = "your_password";
 
+---
 
 4. **Compile & Run**
 
